@@ -1,0 +1,27 @@
+Yeast data set
+
+1: Description.
+
+This database contains information about a set of Yeast cells. The task is to determine the localization site of each cell.
+
+2: Type.			Classification	
+3: Origin.			Real world
+4: Instances.		1484
+5: Features.		8
+6: Classes.			10	
+7: Missing values.	No
+
+8: Header.
+
+@relation yeast
+@attribute Mcg real [0.11, 1.0]
+@attribute Gvh real [0.13, 1.0]
+@attribute Alm real [0.21, 1.0]
+@attribute Mit real [0.0, 1.0]
+@attribute Erl real [0.5, 1.0]
+@attribute Pox real [0.0, 0.83]
+@attribute Vac real [0.0, 0.73]
+@attribute Nuc real [0.0, 1.0]
+@attribute Class {MIT, NUC, CYT, ME1, ME2, ME3, EXC, VAC, POX, ERL}
+@inputs Mcg, Gvh, Alm, Mit, Erl, Pox, Vac, Nuc
+@outputs Class

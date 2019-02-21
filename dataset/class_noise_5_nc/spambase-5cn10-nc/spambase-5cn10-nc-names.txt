@@ -1,0 +1,76 @@
+Spambase data set
+
+1: Description.
+
+This database contains information about 4597 e-mail messages. The task is to determine whether a given email is spam or not, depending on its contents. (4 duplicated instances have been removed from the original data set)
+
+2: Type.			Classification	
+3: Origin.			Real world
+4: Instances.		4597
+5: Features.		57
+6: Classes.			2	
+7: Missing values.	No
+
+8: Header.
+
+@relation spambase
+@attribute Word_freq_make real [0.0, 4.54]
+@attribute Word_freq_address real [0.0, 14.28]
+@attribute Word_freq_all real [0.0, 5.1]
+@attribute Word_freq_3d real [0.0, 42.81]
+@attribute Word_freq_our real [0.0, 10.0]
+@attribute Word_freq_over real [0.0, 5.88]
+@attribute Word_freq_remove real [0.0, 7.27]
+@attribute Word_freq_internet real [0.0, 11.11]
+@attribute Word_freq_order real [0.0, 5.26]
+@attribute Word_freq_mail real [0.0, 18.18]
+@attribute Word_freq_receive real [0.0, 2.61]
+@attribute Word_freq_will real [0.0, 9.67]
+@attribute Word_freq_people real [0.0, 5.55]
+@attribute Word_freq_report real [0.0, 10.0]
+@attribute Word_freq_addresses real [0.0, 4.41]
+@attribute Word_freq_free real [0.0, 20.0]
+@attribute Word_freq_business real [0.0, 7.14]
+@attribute Word_freq_email real [0.0, 9.09]
+@attribute Word_freq_you real [0.0, 18.75]
+@attribute Word_freq_credit real [0.0, 18.18]
+@attribute Word_freq_your real [0.0, 11.11]
+@attribute Word_freq_font real [0.0, 17.1]
+@attribute Word_freq_000 real [0.0, 5.45]
+@attribute Word_freq_money real [0.0, 12.5]
+@attribute Word_freq_hp real [0.0, 20.83]
+@attribute Word_freq_hpl real [0.0, 16.66]
+@attribute Word_freq_george real [0.0, 33.33]
+@attribute Word_freq_650 real [0.0, 9.09]
+@attribute Word_freq_lab real [0.0, 14.28]
+@attribute Word_freq_labs real [0.0, 5.88]
+@attribute Word_freq_telnet real [0.0, 12.5]
+@attribute Word_freq_857 real [0.0, 4.76]
+@attribute Word_freq_data real [0.0, 18.18]
+@attribute Word_freq_415 real [0.0, 4.76]
+@attribute Word_freq_85 real [0.0, 20.0]
+@attribute Word_freq_technology real [0.0, 7.69]
+@attribute Word_freq_1999 real [0.0, 6.89]
+@attribute Word_freq_parts real [0.0, 8.33]
+@attribute Word_freq_pm real [0.0, 11.11]
+@attribute Word_freq_direct real [0.0, 4.76]
+@attribute Word_freq_cs real [0.0, 7.14]
+@attribute Word_freq_meeting real [0.0, 14.28]
+@attribute Word_freq_original real [0.0, 3.57]
+@attribute Word_freq_project real [0.0, 20.0]
+@attribute Word_freq_re real [0.0, 21.42]
+@attribute Word_freq_edu real [0.0, 22.05]
+@attribute Word_freq_table real [0.0, 2.17]
+@attribute Word_freq_conference real [0.0, 10.0]
+@attribute Char_freq1 real [0.0, 4.385]
+@attribute Char_freq2 real [0.0, 9.752]
+@attribute Char_freq3 real [0.0, 4.081]
+@attribute Char_freq4 real [0.0, 32.478]
+@attribute Char_freq5 real [0.0, 6.003]
+@attribute Char_freq6 real [0.0, 19.829]
+@attribute Capital_run_length_average real [1.0, 1102.5]
+@attribute Capital_run_length_longest real [1.0, 9989.0]
+@attribute Capital_run_length_total real [1.0, 15841.0]
+@attribute Spam {1, 0}
+@inputs Word_freq_make, Word_freq_address, Word_freq_all, Word_freq_3d, Word_freq_our, Word_freq_over, Word_freq_remove, Word_freq_internet, Word_freq_order, Word_freq_mail, Word_freq_receive, Word_freq_will, Word_freq_people, Word_freq_report, Word_freq_addresses, Word_freq_free, Word_freq_business, Word_freq_email, Word_freq_you, Word_freq_credit, Word_freq_your, Word_freq_font, Word_freq_000, Word_freq_money, Word_freq_hp, Word_freq_hpl, Word_freq_george, Word_freq_650, Word_freq_lab, Word_freq_labs, Word_freq_telnet, Word_freq_857, Word_freq_data, Word_freq_415, Word_freq_85, Word_freq_technology, Word_freq_1999, Word_freq_parts, Word_freq_pm, Word_freq_direct, Word_freq_cs, Word_freq_meeting, Word_freq_original, Word_freq_project, Word_freq_re, Word_freq_edu, Word_freq_table, Word_freq_conference, Char_freq1, Char_freq2, Char_freq3, Char_freq4, Char_freq5, Char_freq6, Capital_run_length_average, Capital_run_length_longest, Capital_run_length_total
+@outputs Spam
